@@ -1,10 +1,44 @@
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Playfair Display', serif;
 
-@import "header.scss";
-
 $font-family1: 'Montserrat';
 $font-family2: 'Playfair Display';
+$base-fz: 14px;
+$current-fz: $base-fz;
+$color1:#4F4F4F;
+$color1__hover:#53889D;
+$color1__visited:#4F4F4F;
+$color1__active:#ccc;
+
+$padding__left: 1rem;
+$padding__right: 1rem;
+
+.brdr {
+    border: 1px red solid;
+}
+
+@media screen and (max-width: 375px) {
+    // $current-fz: $base-fz;
+    $base-fz: 14px;
+}
+
+
+
+html,
+body {
+    margin: 0 0 0 0;
+    font-size: $base-fz;
+}
+
+@media screen and (max-width: 375px) {
+    // $current-fz: $base-fz;
+}
+
+@import "header.scss";
+
+.wrapper {
+    min-height: 100%;
+}
 
 
 

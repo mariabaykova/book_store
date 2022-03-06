@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=header.css.map */
+.header {
+  padding-left: 1rem;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: calc($base-fz*16/14);
+  line-height: 20px;
+  color: #4F4F4F;
+}
+
+.header__link:hover {
+  color: rebeccapurple;
+}
+/*# sourceMappingURL=header.css.map */
