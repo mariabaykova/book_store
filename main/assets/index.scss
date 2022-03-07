@@ -4,14 +4,15 @@
 $font-family1: 'Montserrat';
 $font-family2: 'Playfair Display';
 $base-fz: 14px;
+$line-height: 14px;
 $current-fz: $base-fz;
 $color1:#4F4F4F;
 $color1__hover:#53889D;
 $color1__visited:#4F4F4F;
 $color1__active:#ccc;
 
-$padding__left: 1rem;
-$padding__right: 1rem;
+$padding__left: 1.4rem;
+$padding__right: 1.4rem;
 
 .brdr {
     border: 1px red solid;
@@ -28,28 +29,20 @@ html,
 body {
     margin: 0 0 0 0;
     font-size: $base-fz;
+    line-height: $line-height;
 }
 
-@media screen and (max-width: 375px) {
-    // $current-fz: $base-fz;
+@mixin main-title-font {
+    font-family: $font-family2;
+    font-style: normal;
+    font-weight: bold;
 }
 
 @import "header.scss";
 
+@import "welcome.scss";
+
 .wrapper {
     min-height: 100%;
-}
-
-
-
-.first_font {
-    font-family: 'Montserrat', sans-serif;
-    color: red;
-    background-color: aqua;
-}
-
-.second_font {
-    font-family: 'Playfair Display', serif;
-    color: red;
-    background-color: aqua;
+    background-color: #FFFFFF;
 }
