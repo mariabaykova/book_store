@@ -18,6 +18,13 @@ body {
   height: 48px;
 }
 
+@media (max-width: 374px) {
+  .header {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .header__menu {
   height: 100%;
   display: -ms-grid;
@@ -104,6 +111,13 @@ body {
   padding-right: 1.4rem;
 }
 
+@media (max-width: 374px) {
+  .welcome {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .main__title {
   font-family: "Playfair Display";
   font-style: normal;
@@ -122,6 +136,18 @@ body {
   line-height: 24px;
   /* or 150% */
   color: #000000;
+}
+
+.popular-lists {
+  padding-left: 1.4rem;
+  padding-right: 0;
+}
+
+@media (min-width: 250px) and (max-width: 374px) {
+  .popular-lists {
+    padding-left: 0.5rem;
+    padding-right: 0rem;
+  }
 }
 
 .wrapper {

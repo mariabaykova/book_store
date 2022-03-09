@@ -21,6 +21,8 @@ $padding__right: 1.4rem;
 @media screen and (max-width: 375px) {
     // $current-fz: $base-fz;
     $base-fz: 14px;
+    $padding__left: 0.5rem;
+    $padding__right: 0.5rem;
 }
 
 
@@ -41,6 +43,8 @@ body {
 @import "header.scss";
 
 @import "welcome.scss";
+
+@import "popular-lists.scss";
 
 .wrapper {
     min-height: 100%;

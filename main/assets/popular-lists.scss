@@ -1,0 +1,11 @@
+.popular-lists {
+    padding-left: $padding__left;
+    padding-right: 0;
+}
+
+@media (min-width: 250px) and (max-width: 374px) {
+    .popular-lists {
+        padding-left: 0.5rem;
+        padding-right: 0rem;
+    }
+}

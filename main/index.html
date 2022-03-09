@@ -7,8 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="../main/assets/index.css">
-
     <title>Book shop home page</title>
 </head>
 <body>
@@ -46,8 +50,38 @@
                 <h2 class="main__subtitle">
                     Popular Lists
                 </h2>
-                <div class="popular-lists__slider">
-                    slider 1
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists1.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists2.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists3.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists4.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists3.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../main/assets/images/pictures/pop-lists2.svg" alt="">
+                        </div>
+
+                    </div>
+                      <!-- If we need pagination -->
+                      <!-- <div class="swiper-pagination"></div> -->
+                    
+                      <!-- If we need navigation buttons -->
+                      <!-- <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div> -->
+                    
+                      <!-- If we need scrollbar -->
+                      <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
             </div>
 
@@ -183,6 +217,6 @@
         </div>
 
     </div>
-    
+    <script src="./scripts.js"></script>
 </body>
 </html>

@@ -3,6 +3,13 @@
     padding-right: $padding__right;
 }
 
+@media (max-width: 374px) {
+    .welcome {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
 .main__title {
     @include main-title-font;
     font-size: 2.23rem;
